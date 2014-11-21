@@ -146,13 +146,9 @@ header h1 {
 }
 .cd-timeline-img img {
   display: block;
-  width: 24px;
-  height: 24px;
+  top:0;left:0;
   position: relative;
-  left: 50%;
-  top: 50%;
-  margin-left: -12px;
-  margin-top: -12px;
+  
 }
 .cd-timeline-img.cd-picture {
   background: #75ce66;
@@ -165,10 +161,11 @@ header h1 {
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
     left: 50%;
-    margin-left: -30px;
+    margin-left: -50px;
+    margin-top: -20px;
     /* Force Hardware Acceleration in WebKit */
     -webkit-transform: translateZ(0);
     -webkit-backface-visibility: hidden;
@@ -280,7 +277,7 @@ header h1 {
 }
 .cd-timeline-content .cd-date {
   float: left;
-  padding: .8em 0;
+  padding: .8em 2em;
   opacity: .7;
 }
 .cd-timeline-content::before {

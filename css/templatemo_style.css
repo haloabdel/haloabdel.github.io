@@ -781,3 +781,9 @@ body, p, div, h1, h2, h3, h4, h5, h6 {
 td h1{
   font-size: 24pt;
 }
+
+.padded-multi-line {
+  display: inline;
+  background: rgba(255,255,255,0.6);
+  box-shadow: 10px 0 0 rgba(255,255,255,0.6), -10px 0 0 rgba(255,255,255,0.6);
+}
