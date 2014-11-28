@@ -798,3 +798,11 @@ td h1{
   box-shadow: 10px 0 0 rgba(255,255,255,0.6), -10px 0 0 rgba(255,255,255,0.6);
 }
 
+.slider-btn {
+  color: white;
+  background-color: #ec523f;
+  padding: 12px 20px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
